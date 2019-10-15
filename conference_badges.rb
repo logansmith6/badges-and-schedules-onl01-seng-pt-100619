@@ -31,9 +31,9 @@ end
 
 def printer(names)
 
-
-names.each do |name|
-  puts assign_rooms(name)
+printed_rooms << assign_rooms(names)
+printed_rooms.each do |name|
+  puts printed_rooms(name)
 end
 
 
