@@ -36,7 +36,7 @@ printed_badges = []
 
 
 
-printed_rooms.each do |name|
+attendees.each do |name|
   printed_rooms << assign_rooms(attendees)
   puts printed_rooms[name]
 end
