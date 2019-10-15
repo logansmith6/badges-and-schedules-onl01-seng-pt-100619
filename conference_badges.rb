@@ -20,9 +20,9 @@ end
 
 def assign_rooms(names)
   room_tracker = []
-  #tracker = room_tracker
+  tracker = room_tracker.inex(name + 1)
   names.each do |name|
-    room_tracker << "Hello, #{name}! You'll be assigned to room #{room_tracker.index(name + 1)}!"
+    room_tracker << "Hello, #{name}! You'll be assigned to room #{tracker}!"
   end
   room_tracker
 end
