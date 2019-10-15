@@ -34,11 +34,11 @@ def printer(names)
   room_assignments = []
 
   names.each do |name|
-  #badges_printed << batch_badge_creator(names)
-  #room_assignments << assign_rooms(names)
+  badges_printed << batch_badge_creator(name)
+  room_assignments << assign_rooms(name)
 
-  puts batch_badge_creator(name)
-  puts assign_rooms(name)
+  
 end
-
+puts badges_printed
+puts room_assignments
 end
