@@ -34,7 +34,7 @@ def printer(names)
   room_assignments = []
 
   badges_printed = batch_badge_creator(names)
-  room_assignments = assign_rooms(namess)
+  room_assignments = assign_rooms(names)
 
   names.each do |name|
     puts badges_printed
