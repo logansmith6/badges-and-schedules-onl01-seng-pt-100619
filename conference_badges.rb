@@ -37,8 +37,8 @@ def printer(names)
   #badges_printed << batch_badge_creator(names)
   #room_assignments << assign_rooms(names)
 
-  puts badges_printed
-  puts room_assignments
+  puts batch_badge_creator(name)
+  puts assign_rooms(name)
 end
 
 end
