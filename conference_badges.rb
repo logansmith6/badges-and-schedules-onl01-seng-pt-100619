@@ -12,7 +12,7 @@ def batch_badge_creator(names)
   names.each do |name|
 
     badge_return << badge_maker(names)
-    
+
   end
 
 
