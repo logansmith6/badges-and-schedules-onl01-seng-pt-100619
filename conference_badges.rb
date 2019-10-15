@@ -14,6 +14,6 @@ def batch_badge_creator(names)
     badge_return << badge_maker(names)
 
   end
-
+    return badge_return
 
 end
