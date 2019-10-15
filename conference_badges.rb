@@ -37,11 +37,11 @@ def printer(names)
   room_assignments = assign_rooms(names)
 
   names.each do |name|
-    puts badges_printed
+    puts badges_printed(name)
 end
 
 names.each do |name|
-  puts room_assignments
+  puts room_assignments(name)
 end
 
 end
