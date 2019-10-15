@@ -29,7 +29,7 @@ def assign_rooms(names)
 end
 
 
-def printer
+def printer(names)
 badges_p = []
 rooms_p = []
 
@@ -38,4 +38,4 @@ puts badges_p
 
 
 end
-printer
+
