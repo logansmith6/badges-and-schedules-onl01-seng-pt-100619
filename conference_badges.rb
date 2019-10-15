@@ -24,4 +24,5 @@ def assign_rooms(names)
   names.each do |name|
     room_tracker << "Hello, #{name}! You'll be assigned to room #{room_tracker.index(name + 1)!}"
   end
+  room_tracker
 end
