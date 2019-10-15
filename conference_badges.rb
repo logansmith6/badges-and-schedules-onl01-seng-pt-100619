@@ -31,6 +31,7 @@ end
 
 def printer(names)
 
+printed_rooms = []
 printed_rooms << assign_rooms(names)
 printed_rooms.each do |name|
   puts printed_rooms(name)
