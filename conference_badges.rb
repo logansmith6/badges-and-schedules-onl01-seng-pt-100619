@@ -38,3 +38,4 @@ puts badges_p
 
 
 end
+printer
