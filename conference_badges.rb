@@ -33,8 +33,8 @@ def printer(names)
   badges_printed = []
   room_assignments = []
 
-  badges_printed << batch_badge_creator(names)
-  room_assignments << assign_rooms(namess)
+  badges_printed = batch_badge_creator(names)
+  room_assignments = assign_rooms(namess)
 
   names.each do |name|
     puts badges_printed(name)
