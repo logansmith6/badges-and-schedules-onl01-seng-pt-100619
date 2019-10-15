@@ -27,3 +27,18 @@ def assign_rooms(names)
   end
   room_tracker
 end
+
+
+def printer(names)
+  badges_printed = []
+  room_assignments = []
+
+  names.each do |name|
+  #badges_printed << batch_badge_creator(names)
+  #room_assignments << assign_rooms(names)
+
+  puts badges_printed
+  puts room_assignments
+end
+
+end
