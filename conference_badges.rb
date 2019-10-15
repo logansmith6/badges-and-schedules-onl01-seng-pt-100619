@@ -29,7 +29,7 @@ def assign_rooms(names)
 end
 
 
-def printer(names)
+def printer
 
 printed_rooms = []
 printed_rooms << assign_rooms(names)
