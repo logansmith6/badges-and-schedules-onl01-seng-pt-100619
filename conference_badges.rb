@@ -32,9 +32,16 @@ end
 def printer
 
 printed_rooms = []
+printed_badges = []
+printed_badges << batch_badge_creator(names)
 printed_rooms << assign_rooms(names)
+
 printed_rooms.each do |name|
   puts printed_rooms(name)
+end
+
+printed_badges.each do |name|
+  puts printed_badges(name)
 end
 
 
