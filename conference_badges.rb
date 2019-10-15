@@ -37,11 +37,10 @@ printed_badges << batch_badge_creator(attendees)
 printed_rooms << assign_rooms(attendees)
 
 printed_rooms.each do |name|
-  puts printed_rooms(name)
-end
+  puts printed_rooms[name]
 
 printed_badges.each do |name|
-  puts printed_badges(name)
+  puts printed_badges[name]
 end
 
 
