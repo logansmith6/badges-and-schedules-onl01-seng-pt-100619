@@ -20,7 +20,7 @@ end
 
 def assign_rooms(names)
   room_tracker = []
-  
+
   names.each do |name|
     tracker = room_tracker.index(name + 1)
     room_tracker << "Hello, #{name}! You'll be assigned to room #{tracker}!"
