@@ -34,8 +34,6 @@ def printer(attendees)
 printed_rooms = []
 printed_badges = []
 
-
-
 attendees.each do |name|
   printed_rooms << assign_rooms(name)
   puts printed_rooms[name]
@@ -45,9 +43,5 @@ attendees.each do |name|
   printed_badges << batch_badge_creator(name)
   puts printed_badges[name]
 end
-
-
-
-
 
 end
