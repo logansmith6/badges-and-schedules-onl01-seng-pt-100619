@@ -41,7 +41,7 @@ def printer(names)
 end
 
 names.each do |name|
-  puts room_assignments(name)
+  puts assign_rooms(name)
 end
 
 end
