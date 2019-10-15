@@ -30,13 +30,10 @@ end
 
 
 def printer(names)
-  #badges_printed = []
-#  room_assignments = []
 
-#  badges_printed = batch_badge_creator(names)
-  #room_assignments = assign_rooms(names)
 
-  names.each do |name|
-    puts batch_badge_creator(name)
-end
+
+
+
+
 end
