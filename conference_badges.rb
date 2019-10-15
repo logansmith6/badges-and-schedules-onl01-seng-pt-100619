@@ -11,7 +11,7 @@ def batch_badge_creator(names)
 
   names.each do |name|
 
-    badge_return << badge_maker(name)
+    badge_return << "Hello, my name is #{name}."
 
   end
    badge_return
